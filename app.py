@@ -22,7 +22,18 @@ class MinimalistRemoverApp(QMainWindow):
             'u2net': 'u2net.onnx',
             'u2netp': 'u2netp.onnx',
             'u2net_human_seg': 'u2net_human_seg.onnx',
-            'silueta': 'silueta.onnx'
+            'u2net_cloth_seg': 'u2net_cloth_seg.onnx',
+            'silueta': 'silueta.onnx',
+            'isnet-general-use': 'isnet-general-use.onnx',
+            'isnet-anime': 'isnet-anime.onnx',
+            'sam': 'sam.onnx',
+            'birefnet-general': 'birefnet-general.onnx',
+            'birefnet-general-lite': 'birefnet-general-lite.onnx',
+            'birefnet-portrait': 'birefnet-portrait.onnx',
+            'birefnet-dis': 'birefnet-dis.onnx',
+            'birefnet-hrsod': 'birefnet-hrsod.onnx',
+            'birefnet-cod': 'birefnet-cod.onnx',
+            'birefnet-massive': 'birefnet-massive.onnx'
         }
         
         # Setup UI
