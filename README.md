@@ -35,3 +35,5 @@ A simple GUI application for removing image backgrounds using various AI models.
 - Install requirements
 
 - Run run.bat
+## download models here 
+- https://github.com/danielgatis/rembg
