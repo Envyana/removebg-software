@@ -1,4 +1,12 @@
 @echo off
+echo Creating models directory...
+mkdir models
+if errorlevel 1 (
+    echo Failed to create models directory
+    pause
+    exit /b 1
+)
+
 echo Installing required packages...
 
 echo Installing PyQt5...
